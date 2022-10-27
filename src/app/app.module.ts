@@ -13,6 +13,9 @@ import { ListFilmComponent } from './user/list-film/list-film.component';
 import { SliderComponent } from './user/slider/slider.component';
 import { ListDiscountComponent } from './user/list-discount/list-discount.component';
 import { ModalOrderComponent } from './user/modal-order/modal-order.component';
+import { CreateComponent } from './admin/create/create.component';
+import { EditComponent } from './admin/edit/edit.component';
+import { FilmComponent } from './admin/film/film.component';
 
 @NgModule({
     declarations: [
@@ -26,6 +29,9 @@ import { ModalOrderComponent } from './user/modal-order/modal-order.component';
         SliderComponent,
         ListDiscountComponent,
         ModalOrderComponent,
+        CreateComponent,
+        EditComponent,
+        FilmComponent,
     ],
     imports: [BrowserModule, AppRoutingModule],
     providers: [],
